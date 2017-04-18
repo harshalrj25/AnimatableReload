@@ -1,0 +1,22 @@
+{
+  "name": "AnimatableReload",
+  "version": "0.1.0",
+  "summary": "A short description of AnimatableReload.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/harshalrj25/AnimatableReload",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "harshalrj25": "harshalrj25@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/harshalrj25/AnimatableReload.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AnimatableReload/Classes/**/*"
+}

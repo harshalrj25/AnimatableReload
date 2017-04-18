@@ -1,0 +1,6 @@
+framework module AnimatableReload {
+  umbrella header "AnimatableReload-umbrella.h"
+
+  export *
+  module * { export * }
+}
