@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/AnimatableReload.svg?style=flat)](http://cocoapods.org/pods/AnimatableReload)
 [![Platform](https://img.shields.io/cocoapods/p/AnimatableReload.svg?style=flat)](http://cocoapods.org/pods/AnimatableReload)
 
+![alt text](https://github.com/harshalrj25/AnimatableReload/table.gif "TableView")
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
