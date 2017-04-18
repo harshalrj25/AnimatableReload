@@ -5,8 +5,17 @@
 [![License](https://img.shields.io/cocoapods/l/AnimatableReload.svg?style=flat)](http://cocoapods.org/pods/AnimatableReload)
 [![Platform](https://img.shields.io/cocoapods/p/AnimatableReload.svg?style=flat)](http://cocoapods.org/pods/AnimatableReload)
 
+Animate tableview and collectionview with a single line of code.
+
+     AnimatableReload.reload(tableView: self.demoTableView, animationDirection: "up")
+     
+ Instead of using reload method of tableview and collectionview, just use the above method to reload with animations.
+ you can also specify the directions of animations.    
+
 ![alt text](https://github.com/harshalrj25/AnimatableReload/blob/master/tableview.gif "TableView")
 ![alt text](https://github.com/harshalrj25/AnimatableReload/blob/master/collectionview.gif "CollectionView")
+
+
 
 ## Usage
  For tableview:
