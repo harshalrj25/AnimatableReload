@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = add animations to your tableview and collectionview while reloading with a single line of    code.
+  s.description      = 'add animations to your tableview and collectionview while reloading'
 
 
   s.homepage         = 'https://github.com/harshalrj25/AnimatableReload'
