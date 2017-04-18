@@ -8,6 +8,24 @@
 ![alt text](https://github.com/harshalrj25/AnimatableReload/blob/master/tableview.gif "TableView")
 ![alt text](https://github.com/harshalrj25/AnimatableReload/blob/master/collectionview.gif "CollectionView")
 
+## Usage
+ For tableview:
+        AnimatableReload.reload(tableView: self.demoTableView, animationDirection: "up")
+
+ For collectionview:
+        AnimatableReload.reload(collectionView: self.demoCollectionView, animationDirection: "up")
+
+ You can animate from following directions: 
+      AnimatableReload.reload(tableView: self.demoTableView, animationDirection: "up")
+      AnimatableReload.reload(tableView: self.demoTableView, animationDirection: "down")
+      AnimatableReload.reload(tableView: self.demoTableView, animationDirection: "left")
+      AnimatableReload.reload(tableView: self.demoTableView, animationDirection: "right")
+            
+      AnimatableReload.reload(collectionView: self.demoCollectionView, animationDirection: "up")
+      AnimatableReload.reload(collectionView: self.demoCollectionView, animationDirection: "down")
+      AnimatableReload.reload(collectionView: self.demoCollectionView, animationDirection: "left")
+      AnimatableReload.reload(collectionView: self.demoCollectionView, animationDirection: "right")
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
