@@ -10,12 +10,16 @@
 
 ## Usage
  For tableview:
-        AnimatableReload.reload(tableView: self.demoTableView, animationDirection: "up")
+       
+       AnimatableReload.reload(tableView: self.demoTableView, animationDirection: "up")
 
  For collectionview:
-        AnimatableReload.reload(collectionView: self.demoCollectionView, animationDirection: "up")
+      
+      AnimatableReload.reload(collectionView: self.demoCollectionView, animationDirection: "up")
 
+ 
  You can animate from following directions: 
+ 
       AnimatableReload.reload(tableView: self.demoTableView, animationDirection: "up")
       AnimatableReload.reload(tableView: self.demoTableView, animationDirection: "down")
       AnimatableReload.reload(tableView: self.demoTableView, animationDirection: "left")
