@@ -7,6 +7,8 @@
 
 Animate tableview and collectionview with few lines of code.
 
+     pod "AnimatableReload"
+
      import AnimatableReload
 
      AnimatableReload.reload(tableView: self.demoTableView, animationDirection: "up")
