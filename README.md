@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/AnimatableReload.svg?style=flat)](http://cocoapods.org/pods/AnimatableReload)
 [![Platform](https://img.shields.io/cocoapods/p/AnimatableReload.svg?style=flat)](http://cocoapods.org/pods/AnimatableReload)
 
-Animate tableview and collectionview with a few lines of code.
+Animate tableview and collectionview with few lines of code.
 
      import AnimatableReload
 
