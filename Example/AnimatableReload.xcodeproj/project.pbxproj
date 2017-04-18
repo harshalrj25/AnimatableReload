@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		93DB2541355FEF85516D8358 /* Pods_AnimatableReload_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A791F417F8DAEF5DD2EC7F6F /* Pods_AnimatableReload_Tests.framework */; };
+		AC00D2DE1EA60E3F0069676A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC00D2DD1EA60E3F0069676A /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		40A89CE344868961BF7C42CD /* AnimatableReload.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AnimatableReload.podspec; path = ../AnimatableReload.podspec; sourceTree = "<group>"; };
-		53CFB3A1F7CB0A6FA05FA987 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		40A89CE344868961BF7C42CD /* AnimatableReload.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AnimatableReload.podspec; path = ../AnimatableReload.podspec; sourceTree = "<group>"; };
+		53CFB3A1F7CB0A6FA05FA987 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AnimatableReload_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatableReload_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,10 +43,11 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6C97952EBFCE0C4EECB9356A /* Pods-AnimatableReload_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatableReload_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimatableReload_Example/Pods-AnimatableReload_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6EF7F465D7D1543661CFFA61 /* Pods-AnimatableReload_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatableReload_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimatableReload_Example/Pods-AnimatableReload_Example.release.xcconfig"; sourceTree = "<group>"; };
-		74DDE13C1A46065C88AEDF6E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		74DDE13C1A46065C88AEDF6E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		81E90B2E81BD536A53BF6EB5 /* Pods_AnimatableReload_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimatableReload_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E2C332F1BA31CC460DDFF9 /* Pods-AnimatableReload_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatableReload_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimatableReload_Tests/Pods-AnimatableReload_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A791F417F8DAEF5DD2EC7F6F /* Pods_AnimatableReload_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimatableReload_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC00D2DD1EA60E3F0069676A /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		C3DCCAA215470B00A44013A0 /* Pods-AnimatableReload_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatableReload_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimatableReload_Tests/Pods-AnimatableReload_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				AC00D2DD1EA60E3F0069676A /* SecondViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -361,6 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC00D2DE1EA60E3F0069676A /* SecondViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		062EBC32C4F6E500169912D63FDD7488 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		153BFF77D80F67089CBDCF1B8E150360 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B258CFA0326E5C52E6B07957E6A28F /* ReplaceMe.swift */; };
 		413A25FC618D7806061EC0C1952B14EC /* Pods-AnimatableReload_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40280DFD7658649F32516B38A866A2FE /* Pods-AnimatableReload_Example-dummy.m */; };
 		5729506FADEC9AEC7B11004A11B11649 /* Pods-AnimatableReload_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC7D0B1959D9FB35AFFA2796BBF27887 /* Pods-AnimatableReload_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BB281E88C1D30DFFB74A38DA2C8FC61 /* AnimatableReload-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D307B34231703CAF8D0F3CC70C961D5 /* AnimatableReload-dummy.m */; };
 		78B2726F636EA4DEFFFF8634722CAA62 /* Pods-AnimatableReload_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A88B5C85C7D251FA49910253E6A8B88A /* Pods-AnimatableReload_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97EF41EE72F50495D99EEEFE95160088 /* AnimatableReload-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EA3A425A87E4544E84A64560AE30249 /* AnimatableReload-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC00D2DC1EA5F5D60069676A /* AnimatableReload.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC00D2DB1EA5F5D60069676A /* AnimatableReload.swift */; };
 		B4F1F8A7299AE75DAD3AB19469D6353A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		CE221A58E19504473BEA1D61431A14AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E7EEF156F40C9ED7042A97C49A1D4474 /* Pods-AnimatableReload_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCA8099B27C822D8D7D9D2693F66837 /* Pods-AnimatableReload_Tests-dummy.m */; };
@@ -31,16 +31,16 @@
 
 /* Begin PBXFileReference section */
 		0221216C4CAC946D7428548F08380EDF /* AnimatableReload.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatableReload.xcconfig; sourceTree = "<group>"; };
-		095D54E7F63A6E6374F91EDEC4C0778A /* Pods_AnimatableReload_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AnimatableReload_Example.framework; path = "Pods-AnimatableReload_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		095D54E7F63A6E6374F91EDEC4C0778A /* Pods_AnimatableReload_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimatableReload_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13293E596D5675693D1C2C41A135BF5D /* AnimatableReload-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatableReload-prefix.pch"; sourceTree = "<group>"; };
 		22E9A3213AE251C9490062166FDB3125 /* Pods-AnimatableReload_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimatableReload_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2C04AA161FB439BE38AD6CF1CAC86F93 /* AnimatableReload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnimatableReload.framework; path = AnimatableReload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B3443F1A8066A13BC45012FF906B11E /* Pods_AnimatableReload_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AnimatableReload_Tests.framework; path = "Pods-AnimatableReload_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C04AA161FB439BE38AD6CF1CAC86F93 /* AnimatableReload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnimatableReload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3443F1A8066A13BC45012FF906B11E /* Pods_AnimatableReload_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimatableReload_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C57B2C141AB78C55338DD437860BB93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E5240EF814E94CE0AC7094846AAB0A4 /* Pods-AnimatableReload_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimatableReload_Tests-resources.sh"; sourceTree = "<group>"; };
 		40280DFD7658649F32516B38A866A2FE /* Pods-AnimatableReload_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnimatableReload_Example-dummy.m"; sourceTree = "<group>"; };
 		443860E2797C3A7919A3855707747B4C /* Pods-AnimatableReload_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimatableReload_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		459E7C4D0AAFF678860A8689E9E7E22B /* Pods-AnimatableReload_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AnimatableReload_Example.modulemap"; sourceTree = "<group>"; };
+		459E7C4D0AAFF678860A8689E9E7E22B /* Pods-AnimatableReload_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AnimatableReload_Example.modulemap"; sourceTree = "<group>"; };
 		4BCA8099B27C822D8D7D9D2693F66837 /* Pods-AnimatableReload_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnimatableReload_Tests-dummy.m"; sourceTree = "<group>"; };
 		51D52BA735E15901B42355B56D5B6CF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		591F3FFAD44763EDFAC669D6F0C4128D /* Pods-AnimatableReload_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimatableReload_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -48,20 +48,20 @@
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		68DCECCF480E69CE8B34265F69527D9C /* Pods-AnimatableReload_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimatableReload_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6EA3A425A87E4544E84A64560AE30249 /* AnimatableReload-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatableReload-umbrella.h"; sourceTree = "<group>"; };
-		90B258CFA0326E5C52E6B07957E6A28F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D307B34231703CAF8D0F3CC70C961D5 /* AnimatableReload-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimatableReload-dummy.m"; sourceTree = "<group>"; };
 		9D3CB68535D86BDE4ED10130FA1B26EF /* Pods-AnimatableReload_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimatableReload_Example-resources.sh"; sourceTree = "<group>"; };
 		A88B5C85C7D251FA49910253E6A8B88A /* Pods-AnimatableReload_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnimatableReload_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AA1ACAC95558BB3F138DC039706F4EA6 /* Pods-AnimatableReload_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimatableReload_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AC00D2DB1EA5F5D60069676A /* AnimatableReload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableReload.swift; sourceTree = "<group>"; };
 		CC7D0B1959D9FB35AFFA2796BBF27887 /* Pods-AnimatableReload_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnimatableReload_Example-umbrella.h"; sourceTree = "<group>"; };
-		D55BFDC338916F370E9FD784BA8F9E16 /* Pods-AnimatableReload_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AnimatableReload_Tests.modulemap"; sourceTree = "<group>"; };
+		D55BFDC338916F370E9FD784BA8F9E16 /* Pods-AnimatableReload_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AnimatableReload_Tests.modulemap"; sourceTree = "<group>"; };
 		D6628A0F75439BA33228517F398CF8EF /* Pods-AnimatableReload_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimatableReload_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DA30B8AC8BA630F201E4931051A7291A /* Pods-AnimatableReload_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimatableReload_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E0A4402AE40A0E8982D1CC45B277D8D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5DA83A4A86812C3CE68C686F45A99AC /* Pods-AnimatableReload_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimatableReload_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EE42A15A1EDBFBBF5C68F57A272B4625 /* Pods-AnimatableReload_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimatableReload_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		F9EC399AC5CFFD918F936596C97523DB /* AnimatableReload.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AnimatableReload.modulemap; sourceTree = "<group>"; };
+		F9EC399AC5CFFD918F936596C97523DB /* AnimatableReload.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AnimatableReload.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,7 +169,6 @@
 			children = (
 				C9BF3AB2B14182D082D63FCA2CBFA7AC /* Classes */,
 			);
-			name = AnimatableReload;
 			path = AnimatableReload;
 			sourceTree = "<group>";
 		};
@@ -184,9 +183,8 @@
 		C9BF3AB2B14182D082D63FCA2CBFA7AC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				90B258CFA0326E5C52E6B07957E6A28F /* ReplaceMe.swift */,
+				AC00D2DB1EA5F5D60069676A /* AnimatableReload.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -314,6 +312,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					B681B2BACFA57CDC3226CA34BB0DB63F = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -339,8 +342,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC00D2DC1EA5F5D60069676A /* AnimatableReload.swift in Sources */,
 				6BB281E88C1D30DFFB74A38DA2C8FC61 /* AnimatableReload-dummy.m in Sources */,
-				153BFF77D80F67089CBDCF1B8E150360 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0221216C4CAC946D7428548F08380EDF /* AnimatableReload.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -494,6 +498,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0221216C4CAC946D7428548F08380EDF /* AnimatableReload.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
