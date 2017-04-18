@@ -5,8 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/AnimatableReload.svg?style=flat)](http://cocoapods.org/pods/AnimatableReload)
 [![Platform](https://img.shields.io/cocoapods/p/AnimatableReload.svg?style=flat)](http://cocoapods.org/pods/AnimatableReload)
 
-![alt text](https://github.com/harshalrj25/AnimatableReload/tableview.gif "TableView")
-![alt text](https://github.com/harshalrj25/AnimatableReload/collectionview.gif "CollectionView")
+![alt text](https://github.com/harshalrj25/AnimatableReload/blob/master/tableview.gif "TableView")
+![alt text](https://github.com/harshalrj25/AnimatableReload/blob/master/collectionview.gif "CollectionView")
 
 ## Example
 
