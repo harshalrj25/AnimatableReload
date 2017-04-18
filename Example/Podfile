@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AnimatableReload_Example' do
+  pod 'AnimatableReload', :path => '../'
+
+  target 'AnimatableReload_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
