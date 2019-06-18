@@ -1,8 +1,8 @@
 {
   "name": "AnimatableReload",
   "version": "0.1.0",
-  "summary": "A short description of AnimatableReload.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Animate tableview and collectionview while reloading",
+  "description": "add animations to your tableview and collectionview while reloading",
   "homepage": "https://github.com/harshalrj25/AnimatableReload",
   "license": {
     "type": "MIT",

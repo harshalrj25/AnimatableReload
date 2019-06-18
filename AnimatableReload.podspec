@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AnimatableReload'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Animate tableview and collectionview while reloading'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/harshalrj25/AnimatableReload.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'AnimatableReload/Classes/**/*'
   

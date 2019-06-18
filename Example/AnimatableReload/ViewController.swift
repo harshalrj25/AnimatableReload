@@ -12,6 +12,7 @@ import AnimatableReload
 class ViewController: UIViewController,UITableViewDataSource {
 
     @IBOutlet weak var demoTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.demoTableView.dataSource = self
